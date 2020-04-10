@@ -77,4 +77,6 @@ axios.get('https://lambda-times-backend.herokuapp.com/articles')
 
     })
 
-
+    .catch( error => {
+        console.log('Stuck in catch' + error)
+    })
